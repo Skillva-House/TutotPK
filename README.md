@@ -64,4 +64,4 @@ TutorPK is a comprehensive, full-stack web application built with PHP that conne
 * For production environments, ensure environment variables or hidden configuration files are used for database credentials and API keys.
 
 ---
-*Developed by Skillva House*
+*Developed by Suleman Ahmad*
