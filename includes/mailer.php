@@ -15,12 +15,12 @@ function configure_smtp($mail) {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'sulemanali67433@gmail.com'; // Your real Gmail
-    $mail->Password   = 'gjlv grnz lkau ybkc';     // Your 16-char App Password
+    $mail->Username   = 'YOUR_EMAIL@gmail.com'; // Add your own email here
+    $mail->Password   = 'YOUR_16_DIGIT_APP_PASSWORD'; // Add your 16-digit App password here
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
-    $mail->setFrom('sulemanali67433@gmail.com', 'TutorPK Official');
+    $mail->setFrom('YOUR_EMAIL@gmail.com', 'TutorPK Official'); // Add your own email here
     $mail->addReplyTo('info@tutorpk.com', 'TutorPK Support');
 }
 
